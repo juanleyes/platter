@@ -1,5 +1,11 @@
+import Footer from "../../components/Footer/Footer";
+
 function Contact() {
-  return <div>Contact</div>;
+  return (
+    <>
+      <Footer />
+    </>
+  );
 }
 
 export default Contact;

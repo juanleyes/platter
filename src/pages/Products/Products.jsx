@@ -1,5 +1,11 @@
+import Footer from "../../components/Footer/Footer";
+
 function Products() {
-  return <div>Products</div>;
+  return (
+    <>
+      <Footer />
+    </>
+  );
 }
 
 export default Products;
