@@ -7,7 +7,7 @@ import {
 
 function Hero() {
   return (
-    <div className={hero__wrapper}>
+    <div id={hero__wrapper}>
       <h1 className={hero__title}> CADA SURCO EN EL VINILO</h1>
       <div className={hero__text}>
         <p className={text}>

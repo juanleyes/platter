@@ -1,9 +1,30 @@
 .card {
-  height: 150px;
-  width: 150px;
-  background-color: crimson;
+  width: 200px;
+  height: 300px;
+  padding: 20px;
+  background-color: #ffffff;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.card__info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+button {
+  border: none;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 5px 10px;
 }
