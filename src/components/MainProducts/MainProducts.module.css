@@ -34,3 +34,11 @@
   font-size: 16px;
   padding: 5px 10px;
 }
+
+/* MEDIAQUERIES */
+
+@media (max-width: 360px) {
+  .products__title {
+    text-align: center;
+  }
+}

@@ -16,5 +16,21 @@
   max-width: 1200px;
   padding: 60px 0;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 50px;
+}
+
+/* MEDIAQUERIES */
+
+@media (max-width: 576px) {
+  .cards__container {
+    padding: 60px 30px;
+  }
+}
+
+@media (max-width: 360px) {
+  .products__title {
+    font-size: 30px;
+  }
 }

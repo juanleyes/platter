@@ -73,3 +73,51 @@
 .item__img {
   width: 350px;
 }
+
+/* MEDIAQUERIES */
+
+@media (max-width: 992px) {
+  .title {
+    font-size: 45px;
+  }
+  .text {
+    font-size: 18px;
+  }
+
+  .item__img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .title {
+    width: 70%;
+  }
+
+  .text {
+    width: 70%;
+  }
+
+  .items__container {
+    padding-bottom: 80px;
+  }
+
+  .item {
+    padding: 80px 0 0 0;
+  }
+
+  .item__info {
+    width: 70%;
+    text-align: center;
+  }
+
+  .item__img {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .title {
+    font-size: 40px;
+  }
+}
