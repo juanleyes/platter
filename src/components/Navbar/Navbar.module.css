@@ -21,3 +21,36 @@
   color: white;
   font-weight: 500;
 }
+
+.menu__icon {
+  color: #ffffff;
+  display: none;
+}
+
+/* MEDIAQUERIES */
+
+@media (max-width: 992px) {
+  #header {
+    background: #0d070a;
+  }
+
+  .menu__icon {
+    display: block;
+  }
+
+  .nav__container {
+    display: none;
+    background: #0d070a;
+    border-bottom: 2px solid #233a43;
+    top: 75px;
+    width: 100%;
+    left: 0;
+    padding: 45px 45px;
+    position: absolute;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
